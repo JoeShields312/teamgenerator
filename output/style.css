@@ -2,7 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     padding: 10 px;
-    border-spacing: 2px;
+    border-spacing: 3px;
 }
 
 .card-header {
@@ -14,12 +14,17 @@
 .card-body {
     margin: 20px;
 }
-
 .card {
+    display:flex;
+    align-items:space-between;
+    justify-content:space-between;
     border: solid 1px black;
 	padding: 5px;
 	margin: 5px;
 	margin-bottom: 5px;
-    display: flex;
- 
+    flex-wrap: auto;
+}
+.jumbotron {
+    background-color:blue;
+    color: white;
 }
