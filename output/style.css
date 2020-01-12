@@ -19,9 +19,6 @@
     align-items:space-between;
     justify-content:space-between;
     border: solid 1px black;
-	padding: 5px;
-	margin: 5px;
-	margin-bottom: 5px;
     flex-wrap: auto;
 }
 .jumbotron {
