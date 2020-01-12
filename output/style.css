@@ -14,11 +14,12 @@
 .card-body {
     margin: 20px;
 }
+
 .card {
     border: solid 1px black;
 	padding: 5px;
 	margin: 5px;
 	margin-bottom: 5px;
     display: flex;
-    flex-wrap: auto;
+ 
 }

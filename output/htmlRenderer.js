@@ -57,16 +57,6 @@ const renderIntern = intern => {
   return template;
 };
 
-const renderAdmin = admin => {
-  let template = fs.readFileSync(path.resolve(templatesDir, "admin.html"), "utf8");
-  template = replacePlaceholders(template, "name", admin.getName());
-  template = replacePlaceholders(template, "role", admin.getRole());
-  template = replacePlaceholders(template, "email", admin.getEmail());
-  template = replacePlaceholders(template, "id", admin.getId());
-  template = replacePlaceholders(template, "school", admin.getSchool());
-  return template;
-};
-
 const renderMain = html => {
   const template = fs.readFileSync(path.resolve(templatesDir, "main.html"), "utf8");
   return replacePlaceholders(template, "team", html);
