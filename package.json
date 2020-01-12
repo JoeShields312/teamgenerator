@@ -1,0 +1,35 @@
+{
+  "name": "teamgenerator",
+  "version": "1.0.0",
+  "description": "Displays cards with team members information",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JShields30/teamgenerator"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JShields30/teamgenerator/issues"
+  },
+  "homepage": "https://github.com/JShields30/teamgenerator#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.17.1",
+    "font-awesome": "^4.7.0",
+    "fs": "0.0.1-security",
+    "inquirer": "^7.0.3",
+    "jest": "^24.9.0",
+    "loader": "^2.1.1",
+    "modules": "^0.4.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {}
+}
