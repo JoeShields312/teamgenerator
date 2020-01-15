@@ -1,9 +1,9 @@
-.team-area {
+/* .team-area {
     display: flex;
     flex-wrap: wrap;
     padding: 10 px;
     border-spacing: 3px;
-} 
+}  */
 
 .card-header {
     color: white;
@@ -18,7 +18,7 @@
      display:flex; 
      align-items:space-between; 
      justify-content:space-between; 
-    border: solid 1px black;
+     border: solid 1px black;
      flex-wrap: auto; 
 }   
 .jumbotron {
